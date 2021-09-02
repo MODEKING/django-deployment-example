@@ -27,7 +27,7 @@ SECRET_KEY = '5)r5yy)8#p*s+%nw2k%zzbeplrd4w1e5jzd7=7m(nrxew*((b$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [modeking.pythonanywhere.com]
+ALLOWED_HOSTS = ['modeking.pythonanywhere.com']
 
 
 # Application definition
