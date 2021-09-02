@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+  {% block body_block %}
+      <div class="jumbotron">
+        <h1>Welcome to index!</h1>
+        <h2>This is an example of template inheritance on INDEX!</h2>
+        <h2>{{ text|upper }}</h2> <!-- this is inherited from views.py and upper here is from the django template filter documentation -->
+        <h2>{{ number|add:"99" }}</h2> <!-- this is inherited from views.py and add here is from the django template filter documentation -->
+        <h2>{{ text|cut:'world' }}</h2> <!-- this is inherited from views.py and cut here is from my_extras that is a filter that i invented -->
+      </div>
+      {% endblock %}
